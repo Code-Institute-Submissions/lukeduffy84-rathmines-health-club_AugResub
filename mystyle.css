@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+body {
+	background-color: black;
+}
+
+.header-logo {
+	width: 16rem;
+	height: 6rem;
+	text-align: center;
+}
+
+
+/* Footer Styling goes here */
+
+.footer {
+	background-color: black;
+	color: red;
+	height: 5%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+@media (min-width: 499px) {
+	.footer {
+		padding: 1%;
+	}
+}
+@media (min-width: 500px) {
+	.footer {
+		height: 10%;
+        padding-bottom: 0%
+	}
+}
+@media (min-width: 1000px) {
+	.footer {
+		padding: 0%;
+		height: 6%;
+	}
+
+	.homepage-text {
+		font-size: 10rem;
+		font-family: 'Roboto Slab', serif;
+		color: white;
+	}
+}
+
+@media (min-width: 570px) {
+	.homepage-text {
+		font-size: 5rem;
+		color: white;
+	}
+}
+
+@media (min-width: 720px) {
+	.homepage-text {
+		font-size: 4rem;
+		padding-right: 25%;
+		color: white;
+	}
+
+	.button-homepage {
+		height: 13vw;
+		width: 50vw;
+	}
+}
+
+@media (min-width: 570px) {
+	.button-homepage {
+		height: 4rem;
+		width: 14rem;
+	}
+}
+
+@media (min-width: 720px) {
+	.button-homepage {
+		height: 4rem;
+		width: 14rem;
+	}
+
+	.pullups-background {
+		background-image: url('img/pullsups.pg');
+		background-size: 100% 65%;
+		background-color: black;
+		background-repeat: no-repeat;
+	}
+}
+
+.socialmedia-logos {
+	padding-bottom: 5%;
+}
+
+.timetable-message {
+	color: white;
+	font-size: 2rem;
+	padding-bottom: 5%;
+}
+
+.about-header {
+	color: red;
+}
+
+.about-bio {
+	color: white;
+	padding-bottom: 10%;
+}
+@media (min-width: 1000px) {
+	.about-bio {
+		font-size: 25px;
+        padding-bottom: 0%;
+	}
+}
+
+
+@media (max-width: 720px) {
+	.homepage-image {
+		display: none;
+	}
+	
+	.homepage-image {
+		background-image: url("https://i.imgur.com/p19KCVu.jpg");
+        position: center;
+	}
+}
+	
+
+
+@media (min-width: 720px) {
+	.background-image {
+		background-image: url("https://i.imgur.com/p19KCVu.jpg");
+	}
+    .homepage-image {
+		display: block;
+	}
+}
+
+.about-header {
+	color: red;
+}
+
+.about-bio {
+	color: white;
+	padding-bottom: 10%;
+}
+
+
+.background-image {
+		background-attachment: fixed;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-color: black;}
+
+
+.zoom-text {
+    font-size: 2rem;
+    font-weight:900;
+}
+
+
+
+.gym-image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+
+
+.col-sm-4:hover .gym-image {
+  opacity: 0.3;
+}
+
