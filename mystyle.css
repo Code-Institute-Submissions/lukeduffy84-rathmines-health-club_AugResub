@@ -13,7 +13,7 @@ body {
 /* Footer Styling goes here */
 
 .footer {
-	background-color: black;
+	background-color: rgb(54, 48, 48) ;
 	color: red;
 	height: 5%;
 	position: fixed;
@@ -175,3 +175,9 @@ body {
   opacity: 0.3;
 }
 
+
+.nav-link {
+    font-size:x-large;
+    font-weight: 600;
+    
+}
