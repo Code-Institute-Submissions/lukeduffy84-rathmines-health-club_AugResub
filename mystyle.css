@@ -201,3 +201,28 @@ body {
 .navbar-custom .nav-item:hover .nav-link {
     color: #ffffff;
 }
+
+
+/* Icon hover effect */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-twitter-square {
+  background: ;
+  color: #55ACEE ;
+}
+
+.fa-facebook-square {
+  color: #55ACEE ;
+}
+
+.fa-google-plus-square {
+  
+  color:red;
+}
+
+.fa-instagram {
+  
+  color:#bc2a8d;
+}
