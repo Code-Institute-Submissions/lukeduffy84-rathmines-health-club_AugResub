@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+html {height:100%}
 body {
 	background-color: black;
+    min-height: 100%; 
 }
 
 .header-logo {
@@ -16,22 +19,25 @@ body {
 	background-color:rgb(56,56,56) ;
 	color: red;
 	height: 5%;
-	position: fixed;
+	
 	left: 0;
 	bottom: 0;
 	width: 100%;
 	text-align: center;
+   margin-top: auto;
+   
 }
 
 @media (min-width: 499px) {
 	.footer {
 		padding: 1%;
-	}
+        
 }
 @media (min-width: 500px) {
 	.footer {
 		height: 10%;
         padding-bottom: 0%
+        
 	}
 }
 @media (min-width: 1000px) {
