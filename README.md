@@ -6,18 +6,26 @@ Javascript using the bootstrap framework to streamline the web development proce
  
 ## UX
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+U
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+- As a new user to the gym, I want to apply for membership or be contacted by staff from the gym who can assist 
+with any necessary info. The landing page of the website prompts the user with a 'join now' button that send the user to a 
+contact page where they can fill out a form. 
+- A user who is curious about the website will be able to accesss a gallery page that has bright photos and  videos showcasing the
+gym's different facilities. The website also contains an 'about' page that details the focus and values of the gym while also promting the 
+user to contact the gym through the a button prompt.
+-As a user who is currently a member of the gym, the website offers a responive 'timetable' section that displays the day, time and type of gym class that the 
+health club offers during the week. At the bottom of each webpage there is also a responsive footer that diplays essential info 
+for the gym including the socila media url's aswell as opening hours and location. 
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+I've attatched my orginal wireframes in the 'wireframes' folder. While much of the layout has stayed the same since the websites inception, the color palet and footer layout are some 
+of many design features that ultimately changed in the end. The frames are split into the various desktop and 'mobile' layouts depending on the screen size. 
 
 ## Features
 
 Home Page--This will be a eye-catching first introduction for the consumer ot the gym with a prompt and some accompanying text to nudge the user towards contacting the club for membership. 
 Timetable--The website will have a responsive timetable for both current and prospective members to check the time, day and type of fitness class that is taking place during the week. 
-Gallery--A gallery will be included on the website, with a responsive grid that uses JS effects when users hover over the image. 
+Gallery--A gallery will be included on the website, with a responsive grid that uses JS effects when users hover over the image . There is also an embeded youtube modal if the photo is clicked. 
 Contact-Form--The website will have several button prompts as well as a dedicated html page that will allow the user to fill in forms for their name, phone number and email address. 
 About-Page --The website will contain an about page, with a brief bio regarding the aims and ethos of the club along with a photo of the gym's staff and management. 
 Responsive-Footer--The website will contain a responsive footer, that will display the social media logos for the club. In bigger screen sizes the footer will reveal more info regarding the clubs
@@ -28,14 +36,15 @@ with accompanying fonts and logos.
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
-- [Bootstrap](https://getbootstrap.com)
+- [Bootstrap](https://mdbootstrap.com)
     - The project uses **Bootstrap 4.5.0** to streamiline the sites responsivness aswell as for embedded features 
     such as the navbar, table etc. 
 - [Google Fonts](https://fonts.google.com)
 - The project uses **Google Fonts** for text styling. 
 - [Font-Awesome](https://fontawesome.com)
     - The project uses **Font-Awesome 4.7.0** for logos and text styling. 
-
+- [MDBootstrap](https://getbootstrap.com)
+    - The project uses **Bootstrap 4.5.0** to streamiline the sites responsivness aswell as for embedded features 
 
 ## Testing
 
@@ -59,15 +68,8 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+The website has been deployed on github pages under the following url https://lukeduffy84.github.io/project-mk3/. The page is built from 
+a master branch from one author. 
 
 ## Credits
 
