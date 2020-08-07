@@ -13,14 +13,14 @@
     <style></style>
 </head>
 
-<body style="background-color: black;">
+<body style="background-color: #66fcf1;;">
 
 
 
 
 
 <!-- Navbar Area is here --->
-<nav class="navbar navbar-expand-md navbar-custom bg-custom">
+<nav class="navbar navbar-expand-md navbar-custom bg-custom" style="background-color: black;">
   <a class="navbar-brand" href="index.html"><img class="header-logo" src="img/logo.png" alt="logo"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="line"></span> 
@@ -47,6 +47,9 @@
     </ul>
   </div>
 </nav>
+
+
+
     
    <!-- Page Content is here --->
 <div class="sidebar-image-gallery container ">
@@ -54,20 +57,21 @@
   <div class="row">
     <div class="col-sm-4 view overlay zoom" >
       <a href="" ><img style="margin-bottom: 10%;" src="https://i.imgur.com/6uL4jgr.jpg" width="500" height="300" alt="gym-image" class="img-fluid img-thumbnail rounded mx-auto d-block gym-image"></a>
-      <div class="mask flex-center ">
-        <p class="white-text zoom-text">Weights Room</p>
+      <div class="mask flex-center container ">
+        
+        <button type="button" class="btn video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-target="#myModal"><p class="white-text zoom-text">Weights Room</p></button>
     </div>
     </div>
     <div class="col-sm-4 view overlay zoom" >
       <a href=""><img style="margin-bottom: 10%;" src="https://i.imgur.com/Oz0C7xP.jpg" width="500" height="300" alt="gym-image" class="img-fluid img-thumbnail rounded mx-auto d-block gym-image"></a>
       <div class="mask flex-center ">
-        <p class="white-text zoom-text">Cardio Classes</p>
+        <button type="button" class="btn video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-target="#myModal"><p class="white-text zoom-text">Cardio Classes</p></button>
     </div>
     </div>
     <div class="col-sm-4 view overlay zoom" >
      <a href=""><img style="margin-bottom: 10%;" src="https://i.imgur.com/Krqg0o7.jpg" width="500" height="300" alt="gym-image" class="img-fluid img-thumbnail rounded mx-auto d-block gym-image" ></a>
      <div class="mask flex-center ">
-        <p class="white-text zoom-text">Indoor Tennis Courts</p>
+      <button type="button" class="btn video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-target="#myModal">  <p class="white-text zoom-text">Indoor Tennis Courts</p></button>
     </div>
     </div>
   </div>
@@ -75,19 +79,19 @@
     <div class="col-sm-4 view overlay zoom">
       <a href=""><img  style="margin-bottom: 10%;" src="https://i.imgur.com/MSm3gRl.jpg" width="500" height="300" alt="gym-image" class="img-fluid img-thumbnail rounded mx-auto d-block gym-image" ></a>
       <div class="mask flex-center ">
-        <p class="white-text zoom-text">Heated Swimming Pool</p>
+        <button type="button" class="btn video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-target="#myModal"><p class="white-text zoom-text">Heated Swimming Pool</p>`</button>
     </div>
     </div>
     <div class="col-sm-4 view overlay zoom">
       <a href=""><img style="margin-bottom: 10%;" src="https://i.imgur.com/rkvPxf2.jpg" width="500" height="300" alt="gym-image" class="img-fluid img-thumbnail gym-image" ></a>
       <div class="mask flex-center ">
-        <p class="white-text zoom-text">Crossfit Centre</p>
+        <button type="button" class="btn video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-target="#myModal"><p class="white-text zoom-text">Crossfit Centre</p></button>
     </div>
     </div>
     <div class="col-sm-4 view overlay zoom">
       <a href=""><img style="margin-bottom: 10%;" src="https://i.imgur.com/wsXnRjd.jpg" width="500" height="300" alt="gym-image" class="img-fluid img-thumbnail gym-image" ></a>
      <div class="mask flex-center ">
-        <p class="white-text zoom-text">Sports Activities</p>
+        <button type="button" class="btn video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-target="#myModal"><p class="white-text zoom-text" >Sports Activities</p></button>
     </div>
     </div>
   
@@ -120,6 +124,50 @@
     
     
     </footer>
+
+
+
+
+ <!-- JS for Youtube Modal Located here --->  
+<script>
+$(document).ready(function() {
+
+// Gets the video src from the data-src on each button
+
+var $videoSrc;  
+$('.video-btn').click(function() {
+    $videoSrc = $(this).data( "src" );
+});
+console.log($videoSrc);
+
+  
+  
+// when the modal is opened autoplay it  
+$('#myModal').on('shown.bs.modal', function (e) {
+    
+// set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+$("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" ); 
+})
+  
+
+
+// stop playing the youtube video when I close the modal
+$('#myModal').on('hide.bs.modal', function (e) {
+    // a poor man's stop video
+    $("#video").attr('src',$videoSrc); 
+}) 
+    
+    
+
+
+  
+  
+// document ready  
+});
+</script>
+
+
+
  <!-- JS CDN Area is here --->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

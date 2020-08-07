@@ -2,7 +2,7 @@
 
 
 body {
-	background-color: black;
+	background-color:;
   
     
 }
@@ -17,15 +17,15 @@ body {
 /* Footer Styling goes here */
 
 .footer {
-	background-color:rgb(56,56,56) ;
-	color: red;
+	background-color: black;
+	color:  #66FCF1;
 	height: 5%;
 	
 	left: 0;
 	bottom: 0;
 	width: 100%;
 	text-align: center;
-   margin-top: auto;
+    margin-top: auto;
    
 }
 
@@ -50,22 +50,22 @@ body {
 	.homepage-text {
 		font-size: 10rem;
 		font-family: 'Roboto Slab', serif;
-		color: white;
+		color: black;
 	}
 }
 
 @media (min-width: 570px) {
 	.homepage-text {
-		font-size: 5rem;
-		color: white;
+		font-size: 20rem;
+		color: black;
 	}
 }
 
 @media (min-width: 720px) {
 	.homepage-text {
-		font-size: 4rem;
+		font-size: 20rem;
 		padding-right: 25%;
-		color: white;
+		color: black;
 	}
 
 	.button-homepage {
@@ -100,7 +100,7 @@ body {
 }
 
 .timetable-message {
-	color: white;
+	color: ;
 	font-size: 2rem;
 	padding-bottom: 5%;
 }
@@ -110,7 +110,7 @@ body {
 }
 
 .about-bio {
-	color: white;
+	color: black;
 	padding-bottom: 10%;
 }
 @media (min-width: 1000px) {
@@ -126,17 +126,13 @@ body {
 		display: none;
 	}
 	
-	.homepage-image {
-		background-image: url("https://i.imgur.com/p19KCVu.jpg");
-        position: center;
-	}
+	
 }
 	
 
 
 @media (min-width: 720px) {
-	.background-image {
-		background-image: url("https://i.imgur.com/p19KCVu.jpg");
+	
 	}
     .homepage-image {
 		display: block;
@@ -144,12 +140,12 @@ body {
 }
 
 .about-header {
-	color: red;
+	color:  black;
 }
 
 .about-bio {
-	color: white;
-	padding-bottom: 10%;
+	color: black;
+	padding-bottom: 5%;
 }
 
 
@@ -229,6 +225,71 @@ body {
     width: 140%;
     float: left;
     height: 4px;
-    background-color:red;
+    background-color: #66FCF1;
     margin-bottom: 5px;
+}
+
+.navbar-custom {
+    color: black;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #66FCF1;
+}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+
+ 
+.btn-dark
+ {
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  
+  text-align: center;
+}
+.containter .btn-dark :hover {
+  background-color: white; 
+}
+
+
+
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  
+  background-color: transparent;
+  
+  
+  
+  border: none;
+  cursor: pointer;
+  
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: transparent;
 }
