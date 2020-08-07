@@ -87,12 +87,7 @@ body {
 		width: 14rem;
 	}
 
-	.pullups-background {
-		background-image: url('img/pullsups.pg');
-		background-size: 100% 65%;
-		background-color: black;
-		background-repeat: no-repeat;
-	}
+	
 }
 
 .socialmedia-logos {
@@ -133,7 +128,7 @@ body {
 
 @media (min-width: 720px) {
 	
-	}
+	
     .homepage-image {
 		display: block;
 	}
@@ -246,23 +241,7 @@ body {
 
 
  
-.btn-dark
- {
 
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: black;
-  color: white;
-  border: none;
-  cursor: pointer;
-  
-  text-align: center;
-}
-.containter .btn-dark :hover {
-  background-color: white; 
-}
 
 
 
@@ -278,18 +257,3 @@ body {
   height: auto;
 }
 
-.container .btn {
-  
-  background-color: transparent;
-  
-  
-  
-  border: none;
-  cursor: pointer;
-  
-  text-align: center;
-}
-
-.container .btn:hover {
-  background-color: transparent;
-}
