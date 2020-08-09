@@ -79,10 +79,10 @@ with accompanying fonts and logos.
 The website has been deployed on github pages under the following url https://lukeduffy84.github.io/project-mk3/. The page is built from 
 a master branch from one author. 
 
-## Credits
+
 
 ### Content
-- The text for the about section was copied from URL: "https://iconichealthclubs.ie/dartry/"
+- The text for the 'About' page on the website was copied from URL: "https://iconichealthclubs.ie/dartry/"
 
 
 ### Media
