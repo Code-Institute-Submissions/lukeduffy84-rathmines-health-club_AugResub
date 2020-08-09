@@ -6,7 +6,7 @@ Javascript using the bootstrap framework to streamline the web development proce
  
 ## UX
  
-U
+User Experiences
 
 - As a new user to the gym, I want to apply for membership or be contacted by staff from the gym who can assist 
 with any necessary info. The landing page of the website prompts the user with a 'join now' button that send the user to a 
@@ -48,23 +48,31 @@ with accompanying fonts and logos.
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
 1. Contact form:
     1. Go to the "Contact Us" page
     2. Try to submit the empty form and verify that an error message about the required fields appears
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
     4. Try to submit the form with all inputs valid and verify that a success message appears.
+2. Resonsive Timetable
+    1. Go to the "Timetable" page
+    2. Try view the timetable on a desktop sized screen
+    3. Try then view the timetable on a mobile screen, timetable should display 'skinnier' version of timetable more suited to smaller screens.
+3. Gallery:
+    1. Go to the "Gallery" page
+    2. In Desktop version, hover mouse over different images so 'zoom' effect takes place while displaying text regarding the contents of the image.
+    3. Try and click on text displayed in image, window should pop up displaying youtube video further detailing the gym's facilities.
+    4. View image in mobile format, image should change to vertical scroll layout. 
+4. Home-page:
+    1. Click on 'Join Now' button, should bring user to contact page to fill out form to be contacted by member of staff. 
+    2. View home-page in desktop mode, image of woman should appear to right hand side of text and button. 
+    3. View home-page in mobile mode, image of woman should dissapearand only text and button should be displayed in the screen. 
+5. About-page:
+    1. Click on 'Join Now' button, should bring user to contact page to fill out form to be contacted by member of staff. 
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+6. Footer: 
+   1. In larger screen sizes, footer should display 'club info' logo's and text in 3 seperate column's at the bottom of the page.
+   2. As screen size gets smaller, footer should align to become single column, with information and logo's stacked on top of one another. 
 
 ## Deployment
 
