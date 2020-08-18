@@ -99,6 +99,7 @@
 
 .about-header {
 	color: red;
+    
 }
 
 .about-bio {
@@ -163,7 +164,7 @@
 }
 
 .fa-twitter-square {
-  background: ;
+  
   color: #55ACEE ;
 }
 
@@ -245,3 +246,9 @@
         color: white;
 	}
 }
+
+.about-img {
+    margin-bottom: 60px!important;
+}
+
+
