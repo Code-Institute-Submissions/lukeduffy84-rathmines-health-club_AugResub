@@ -1,6 +1,7 @@
+![Image of Respnosive site](https://i.imgur.com/ifDutSi.png)
 # User Centric Front End Development Project: Gym Website 
 
-For my project I have designed a website for the fictional gym of "Rathmines Health Club", a leisure gym based in the D8 Area. The aim of the 
+For my project I have designed a website for the fictional gym of "Rathmines Health Club", a leisure gym based in the Dublin 8 Area. The aim of the 
 website is to be a aesthetically pleasing, yet functional advert for the gym with the goal of attracting new memberships. The website is built using HTML, CSS and some basic
 Javascript using the bootstrap framework to streamline the web development process. 
  
